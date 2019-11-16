@@ -27,16 +27,32 @@ All of these components are clearly organised in a folder structure that allows 
 
 ## Q2: Identify a database commonly used in web applications (including Rails) and discuss the pros and cons of this database (150 - 250 words )
 
- Mongo DB is a dynamic, object oriented and scalable database. 
+ Mongo DB is an open source, dynamic, object oriented and scalable database. 
  
  It is NoSQL which means Data objects are stored as seperate objects as opposed to being stored in columns and rows as they would in a SQL database. These files are either represented as JSON or BSON documents. 
  
- Mongo DB aspires to be simple to install and implement and provides high performance, high avaliability and automatic scaling.  
- High performance 
+ Mongo DB excels in simplicity of instalation and implementation and providing high performance, high avaliability and horizontal scaling.  
+
+Mongo DB is easy to install on Mac, PC and Linux systems and can be operated with Javascript notation as it can use JSON files to store data making it a popular choice for web developers. 
+
+ Mongo DB is a high performance database because it can access it's indexed documents lightning fast. Relational databases have slower query times as they have to navigate nebulous fields and tables. 
+
+ Mongo DB is horizontally scalable database. Through a process called Sharding, you can spread your database over multiple machines and combine their resources. This is much more flexible then competitors that are vertical scaling which means you must host your database om single machine. 
+
+ These qualities make it very useful for Web Developers looking to build web applications quickly, with diverse data that need scale flexibly and efficiently. Examples of this includes Codecademy, Google Search and Ebay. 
+
+ However, if you need table joins you are out of luck due to the NoSql nature of the database. Mongo DB is best when you have alot of a data but don't need it to be relational. It also may be unsuitable as you have to hire DB admins who fully understand NoSQL. It is extremely memory hungry due to it's reliance something called a memory mapped file. THis means your database is only as scalable as it's access to system memory. 
 
 
 
 ## Q3: Discuss the implementation of Agile project management methodology (200-300 words)
+
+When software engineers are aproached to develop software we don't have one goal to be achieved through one method by one person that we only reveal when it is 100% complete. We need to be flexible, we need to work with a diverse groups of people and we need to involve the customer in the creative process.
+
+
+
+
+
 
 ## Q4: Provide an overview and description of a standard source control process (100-200 words)
 
@@ -80,3 +96,8 @@ All of these components are clearly organised in a folder structure that allows 
  Q2: 
  https://www.mongodb.com/what-is-mongodb
  https://www.guru99.com/what-is-mongodb.html
+ https://data-flair.training/blogs/advantages-of-mongodb/
+ http://makble.com/the-advantages-and-disadvantages-of-mongodb
+
+ Q3: 
+ https://zenkit.com/en/blog/agile-methodology-an-overview/
