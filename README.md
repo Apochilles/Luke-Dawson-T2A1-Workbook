@@ -96,6 +96,22 @@ Finally you need to consider exit criteria. All planned tests should be have bee
 
 ## Q6: Discuss and analyse requirements related to information system security (100-200 words)
 
+A businesses security requirements range on a case by case business. Identifying what aspects your business needs to protect itself against is extremely important whether it be malware, system availability loss or data compromise. It is also important to adapt as threats grow more intelligent and aggressive every day. 
+ 
+There are three obligations a business must consider when implementing these defences. First, protecting the business second, legal compliance and third, customer protection.
+
+IT security should begin with a contigency plan for worst case scenario. 
+
+Next they need to identify the threats and prioritise them by severity and likelyhood.
+
+Next they need to raise awareness of bad practices within the business to ensure everyone is as protected as possible.
+
+Next defenses need to be implemented and maintained 
+
+next end users should be prioritied. The users must be aware of the risks and know what we're doing to maintain their privacy. Implemented practices should be user friendly and easy to maintain. 
+
+Once everything is in place it is important that the IT security team is confident but they must stay viligant and up to date with evolving threats 
+
 ## Q7: Discuss common methods of protecting information and data (100-200 words)
 
 ## Q8: Research what your legal obligations are in relation to handling user data (100-200 words)
@@ -149,4 +165,6 @@ Finally you need to consider exit criteria. All planned tests should be have bee
  https://www.softwaretestingstandard.org/part2.php
  https://www.tutorialspoint.com/software_testing/software_testing_iso_standards.htm
  https://reqtest.com/testing-blog/the-a-to-z-guide-to-the-software-testing-process/
- https://artoftesting.com/difference-between-test-plan-and-test-strategy
+ https://artoftesting.com/difference-between-test-plan-and-test-
+ 
+ Q6: https://www.proserveit.com/blog/information-security-requirements
