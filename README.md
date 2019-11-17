@@ -114,7 +114,21 @@ Once everything is in place it is important that the IT security team is confide
 
 ## Q7: Discuss common methods of protecting information and data (100-200 words)
 
+ 
+In this modern age it is extremely important to ensure you are as protected as possible against cyber threats. 
+ 
+As a user is it important we encrypt our data when possible. Mail programs on major operating systems now have encryption plugins that encrypt and decrypt messages to ensure they are not intercepted during sending. Another thing to ensure is that your OS of choice is automatically updating so you have the latest possible security features. 
+ 
+We must also backup our data. This has never been easier as we can create backups on physical hard drives but we can also upload our files to the cloud. Most devices have some automatic way of storing user data in the cloud so you're safe knowing your backups are constantly updated. If you stop using a device you should wipe your hard disk to factory settings so you are protecting if it is stolen or becomes lost
+ 
+We must also keep up to data with malware protection by installing the latest software and doing regular scans to prevent malware stealing our private information.
+ 
+Never reuse password and make sure you use passphrases to protect yourself from dictionary attacks. Never store your password on any device in any form.  
+
+
 ## Q8: Research what your legal obligations are in relation to handling user data (100-200 words)
+
+
 
 ## Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure. (100-200 words)
 
@@ -168,3 +182,5 @@ Once everything is in place it is important that the IT security team is confide
  https://artoftesting.com/difference-between-test-plan-and-test-
  
  Q6: https://www.proserveit.com/blog/information-security-requirements
+
+ Q7: https://digitalguardian.com/blog/101-data-protection-tips-how-keep-your-passwords-financial-personal-information-safe
