@@ -13,7 +13,7 @@ At the heart of Rail's design is Model-View-Controller (MVC) architecture.
 The Model governs the business logic of the application. Each table in your database is governed by it's own model and it is within the model that the developer establishes relationships between other tables and relevant validations within the tables. 
 
 the View governs the display logic and is the front end of your web application. Views are HTML files that include embedded Ruby that can be used to render data in the browser. You can also attach CSS files to your application to style to your hearts content  
-
+ 
 Controller governs application flow between the Model and View. Browser requests are intepreted in the controller which request model data and respond to the views to present the information. (actions as well)
 
 The Ruby on Rails server creates a Web Server that listens to an IP and a port and you can interact with a web browser. On your local machine this defaults to port 3000 and you can access your webpage there.   
@@ -81,6 +81,19 @@ Good source control pratice is to commit code with a singular purpose and with a
 
 ## Q5: Provide an overview and description of a standard software testing process (100-200 words)
 
+Software testing is utilizing software with the intention of discovering and documenting bugs. It is one of the ways we verify our code executes successfully and as intended. 
+
+Software testing process is the a process that ensures that software is checked and bugs are eliminated in a timely and and efficient manner.
+
+A project should begin with a Test strategy and a Test plan. This formal document contains the softwares systems, configurations, features and details how the tests will be carried out. Processes, approaches, schedule. 
+
+Next you need to design the tests around what information you gathered druing the stratergy and testing phase. 
+
+Next you need to execute the tests as designed as per your project management methodology 
+
+Finally you need to consider exit criteria. All planned tests should be have been covered with a 90% success rate and all critical defects must be 100% fixed 
+
+
 ## Q6: Discuss and analyse requirements related to information system security (100-200 words)
 
 ## Q7: Discuss common methods of protecting information and data (100-200 words)
@@ -128,4 +141,12 @@ Good source control pratice is to commit code with a singular purpose and with a
  https://www.workfront.com/blog/the-beginners-guide-to-agile-project-management-methodology
  https://plan.io/blog/ultimate-guide-to-implementing-agile-project-management-and-scrum/
 
-Q4: https://homes.cs.washington.edu/~mernst/advice/version-control.html
+ Q4: 
+ https://homes.cs.washington.edu/~mernst/advice/version-control.html
+
+ Q5: 
+ https://www.testbytes.net/blog/software-testing-standards/ 
+ https://www.softwaretestingstandard.org/part2.php
+ https://www.tutorialspoint.com/software_testing/software_testing_iso_standards.htm
+ https://reqtest.com/testing-blog/the-a-to-z-guide-to-the-software-testing-process/
+ https://artoftesting.com/difference-between-test-plan-and-test-strategy
