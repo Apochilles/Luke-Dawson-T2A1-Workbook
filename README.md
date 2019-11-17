@@ -68,7 +68,15 @@ as teams incorporate these methodolgies into their projects. they will begin to 
 
 ## Q4: Provide an overview and description of a standard source control process (100-200 words)
 
+Source control is how developers maintain, share and archive their source code.  
 
+A developer will have a working copy of a project on their local machine and a repository usually hosted in the cloud. Source control allows the developer to keep a record of changes made during the course of development. It allows many people to work on the same code without effecting each others changes and allows a developer to access their code from different computers. 
+
+A developers working copy is a playground for them to experiment with code to their hearts content. When you want to share or document your code you commit your changes to a repository. Sometimes a repo can contain edits that we want to apply to our working copy, this process is called updating.  
+
+There are two types of history on a repository. Linear history is a sequential list of changes but there is also sometimes a branching history. A branching history will contain split versions that will merge again at a later commit.
+
+Good source control pratice is to commit code with a singular purpose and with a descriptive commit messages. It is also important to share your changes regularly and make sure you're updating to others changes as well.
 
 
 ## Q5: Provide an overview and description of a standard software testing process (100-200 words)
@@ -119,3 +127,5 @@ as teams incorporate these methodolgies into their projects. they will begin to 
  https://www.agilealliance.org/agile101/
  https://www.workfront.com/blog/the-beginners-guide-to-agile-project-management-methodology
  https://plan.io/blog/ultimate-guide-to-implementing-agile-project-management-and-scrum/
+
+Q4: https://homes.cs.washington.edu/~mernst/advice/version-control.html
