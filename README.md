@@ -47,12 +47,25 @@ Mongo DB is easy to install on Mac, PC and Linux systems and can be operated wit
 
 ## Q3: Discuss the implementation of Agile project management methodology (200-300 words)
 
-When software engineers are aproached to develop software we don't have one goal to be achieved through one method by one person that we only reveal when it is 100% complete. We need to be flexible, we need to work with a diverse groups of people and we need to involve the customer in the creative process.
-
-
-
-
-
+ 
+Agile software development encompasses a set of frameworks and practices that adhere to the Manifesto for Agile Software Development and it's twelve principles. 
+ 
+in the 1990's the software industry was met with a developmental crisis. The problem was that the industry was just not fast enough to meet the demands of the customer. Traditionally, progress was made sequentially and the final product was revealed upon its completion. Companies were finding that by the time they were unveiling their products the customers expectations had shifted. 
+ 
+in 2011, after years of experimentation and discussion a new method that addressed the concerns of the industry was formalised. This was the Agile Manifesto and it contained 4 core values and and 12 guiding principles.
+ 
+But a philosophy is one thing. Agile needed some methodologies to help teams incorporate these values and principles into their projects. Popular examples of this are Scrum, Kanban and Extreme programming but all these methodology frameworks follow the same process. 
+ 
+You must plan your project with a clear end goal and with Agile's values and principles in mind. Then you must break this process down into a roadmap that will represent all the features that will make up your final product. 
+ 
+You will then break each feature into short development cycles called sprints. Before these sprints begin, the team must plan how much will be achieved, what will be achieved and by whom. This process should be visually documented and accessible by every member of the team. 
+ 
+During the development process there should be daily meetings. In these meeting team members will briefly speak about what they accomplished the day before and what they plan to achieve today. It is important these meetings do not exceed 15 minutes so they don't impact on productivity. 
+ 
+When a sprint is finished is finished there will be two meetings. One will be a presentation with the stakeholder to present your progress. The second meeting will be a breakdown of the previous sprint, a discussion on what can be improved and how team members handle work loads during the sprint. 
+ 
+By following these steps and making them a routine for your team you will be on the path to utilizing Agile to its highest potential. 
+ 
 
 ## Q4: Provide an overview and description of a standard source control process (100-200 words)
 
@@ -101,3 +114,6 @@ When software engineers are aproached to develop software we don't have one goal
 
  Q3: 
  https://zenkit.com/en/blog/agile-methodology-an-overview/
+ https://www.agilealliance.org/agile101/
+ https://www.workfront.com/blog/the-beginners-guide-to-agile-project-management-methodology
+ https://plan.io/blog/ultimate-guide-to-implementing-agile-project-management-and-scrum/
