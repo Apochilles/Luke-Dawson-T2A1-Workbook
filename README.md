@@ -64,10 +64,12 @@ During the development process there should be daily meetings. In these meeting 
  
 When a sprint is finished is finished there will be two meetings. One will be a presentation with the stakeholder to present your progress. The second meeting will be a breakdown of the previous sprint, a discussion on what can be improved and how team members handle work loads during the sprint. 
  
-By following these steps and making them a routine for your team you will be on the path to utilizing Agile to its highest potential. 
- 
+as teams incorporate these methodolgies into their projects. they will begin to benefit from the values and principles of Agile software development.
 
 ## Q4: Provide an overview and description of a standard source control process (100-200 words)
+
+
+
 
 ## Q5: Provide an overview and description of a standard software testing process (100-200 words)
 
