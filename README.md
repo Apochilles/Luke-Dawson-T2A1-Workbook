@@ -6,65 +6,67 @@
 ## Q1: Describe the architecture of a typical Rails application (200-300 words)
 
 
-Ruby on Rails is a code library that expands the captabilities of Ruby from a high level programming language to a web development framework capable of full stack web application development specifically with a database backend. 
+Ruby on Rails is a code library that expands the capabilities of the Ruby programming language. It is a web development framework capable of full stack web application development specifically with a database back-end. 
 
-At the heart of Rail's design is Model-View-Controller (MVC) architecture. 
+At the heart of Rail’s design is Model-View-Controller (MVC) architecture. 
 
-The Model governs the business logic of the application. Each table in your database is governed by it's own model and it is within the model that the developer establishes relationships between other tables and relevant validations within the tables. 
+The Model governs the business logic of the application. Each model in your application governs a different table in your database and it is within the model that the developer establishes relationships between tables and relevant data validations. 
 
-the View governs the display logic and is the front end of your web application. Views are HTML files that include embedded Ruby that can be used to render data in the browser. You can also attach CSS files to your application to style to your hearts content  
- 
-Controller governs application flow between the Model and View. Browser requests are intepreted in the controller which request model data and respond to the views to present the information. (actions as well)
+The View governs the display logic and is the front end of your web application. Views use HTML to structure the web app page layouts but also include embedded Ruby to retrieve database records and render them to the browser. Assets are the files that supply our chosen visual content to our Views rendered in the browser. The developer can customise these with CSS and Bootstrap. 
+ 
+The controller governs application flow between the Model and View. The Controller interprets browser requests and references Model data to respond to the views to present the information. 
 
-The Ruby on Rails server creates a Web Server that listens to an IP and a port and you can interact with a web browser. On your local machine this defaults to port 3000 and you can access your webpage there.   
+Routes convert URL paths into a form our application can interpret.These are configured in the routes file and include a controller and an action specified to complete an HTTP request. 
 
-Routes convert URL paths into a form our application can intepret. These are configured in the routes file and include a controller and an action specified to complete a HTTP request. 
+The Ruby on Rails server creates a Web Server that listens to an IP and a port and is intractable with a web browser.On your local machine, this defaults to port 3000 and it is here that you can preview your web application.
 
-Assets are the files that supply our chosen visual content to our Views rendered in the browser. 
+The organisation of these components in a folder structure allows us easy navigation around our app. 
 
-All of these components are clearly organised in a folder structure that allows us to easily navigate around our app. 
+
 
 
 ## Q2: Identify a database commonly used in web applications (including Rails) and discuss the pros and cons of this database (150 - 250 words )
 
- Mongo DB is an open source, dynamic, object oriented and scalable database. 
- 
- It is NoSQL which means Data objects are stored as seperate objects as opposed to being stored in columns and rows as they would in a SQL database. These files are either represented as JSON or BSON documents. 
- 
- Mongo DB excels in simplicity of instalation and implementation and providing high performance, high avaliability and horizontal scaling.  
+ Mongo DB is an open source, dynamic, object oriented and scalable database. 
+ 
+It is a NoSQL database which means it stores data as independent objects as opposed to being stored in columns and rows as they would in an SQL database. It represents these files as JSON or BSON documents. Developers can operate it with Javascript notation if the developer exports in JSON documents making it a popular choice for web developers. 
 
-Mongo DB is easy to install on Mac, PC and Linux systems and can be operated with Javascript notation as it can use JSON files to store data making it a popular choice for web developers. 
+ 
+ Mongo DB excels in simplicity of installation and implementation and providing high performance, high availability and horizontal scaling.  
 
- Mongo DB is a high performance database because it can access it's indexed documents lightning fast. Relational databases have slower query times as they have to navigate nebulous fields and tables. 
+Mongo DB supports Mac, PC and Linux systems allowing you to stick to your preferred system. 
 
- Mongo DB is horizontally scalable database. Through a process called Sharding, you can spread your database over multiple machines and combine their resources. This is much more flexible then competitors that are vertical scaling which means you must host your database om single machine. 
 
- These qualities make it very useful for Web Developers looking to build web applications quickly, with diverse data that need scale flexibly and efficiently. Examples of this includes Codecademy, Google Search and Ebay. 
+ Mongo DB is a high performance database because it can access its indexed documents lightning fast. Relational databases have slower query times as they have to navigate nebulous fields and tables. 
 
- However, if you need table joins you are out of luck due to the NoSql nature of the database. Mongo DB is best when you have alot of a data but don't need it to be relational. It also may be unsuitable as you have to hire DB admins who fully understand NoSQL. It is extremely memory hungry due to it's reliance something called a memory mapped file. THis means your database is only as scalable as it's access to system memory. 
+ Mongo DB is a horizontally scalable database. Through a process called Sharding, you can spread your database over multiple machines and combine their resources. This is much more flexible than competitors that are vertical scaling, which means you must host your database om single machine. 
 
+ These qualities make it very useful for Web Developers looking to build web applications quickly, with diverse data that need scale flexibly and efficiently. Examples of this includes Codecademy, Google Search and eBay. 
+
+ However, if you need table joins you are out of luck because of the NoSql nature of the database. Mongo DB is best when you have a lot of a data but don’t need it to be relational. It also may be unsuitable as you have to hire DB admins who fully understand NoSQL. It is extremely memory hungry because of it’s reliance a memory-mapped file. This means your database is only as scalable as its access to system memory. 
 
 
 ## Q3: Discuss the implementation of Agile project management methodology (200-300 words)
 
  
-Agile software development encompasses a set of frameworks and practices that adhere to the Manifesto for Agile Software Development and it's twelve principles. 
- 
-in the 1990's the software industry was met with a developmental crisis. The problem was that the industry was just not fast enough to meet the demands of the customer. Traditionally, progress was made sequentially and the final product was revealed upon its completion. Companies were finding that by the time they were unveiling their products the customers expectations had shifted. 
- 
-in 2011, after years of experimentation and discussion a new method that addressed the concerns of the industry was formalised. This was the Agile Manifesto and it contained 4 core values and and 12 guiding principles.
- 
-But a philosophy is one thing. Agile needed some methodologies to help teams incorporate these values and principles into their projects. Popular examples of this are Scrum, Kanban and Extreme programming but all these methodology frameworks follow the same process. 
- 
-You must plan your project with a clear end goal and with Agile's values and principles in mind. Then you must break this process down into a roadmap that will represent all the features that will make up your final product. 
- 
-You will then break each feature into short development cycles called sprints. Before these sprints begin, the team must plan how much will be achieved, what will be achieved and by whom. This process should be visually documented and accessible by every member of the team. 
- 
-During the development process there should be daily meetings. In these meeting team members will briefly speak about what they accomplished the day before and what they plan to achieve today. It is important these meetings do not exceed 15 minutes so they don't impact on productivity. 
- 
-When a sprint is finished is finished there will be two meetings. One will be a presentation with the stakeholder to present your progress. The second meeting will be a breakdown of the previous sprint, a discussion on what can be improved and how team members handle work loads during the sprint. 
- 
-as teams incorporate these methodolgies into their projects. they will begin to benefit from the values and principles of Agile software development.
+Agile software development encompasses a set of frameworks and practices that adhere to the Manifesto for Agile Software Development and its twelve principles. 
+ 
+In the 1990s the software industry  met with a developmental crisis. The problem was that the industry was just not fast enough to meet the demands of the customer. Traditionally, progress was made sequentially and they revealed the final product upon its completion. Companies found that by the time they were unveiling their products the customer's expectations had shifted.
+ 
+In 2011, after years of experimentation and discussion, they formalised a new method that addressed the concerns of the industry. This was the Agile Manifesto, and it contained 4 core values and 12 guiding principles.
+ 
+But a philosophy is one thing. Agile needed some methodologies to help teams incorporate these values and principles into their projects. Popular examples of this are Scrum, Kanban and Extreme programming but all these frameworks follow the same process. 
+ 
+You must plan your project with a clear end goal and with Agile’s values and principles in mind. Then you must break this process down into a roadmap that will represent all the features that will make up your final product. 
+ 
+You will then break each feature into short development cycles called sprints. Before these sprints begin, the team must plan how much will be achieved, what will be achieved and by whom. This process should be visually documented and accessible by every member of the team. 
+ 
+During the development process there should be daily meetings. In these meeting team members will briefly speak about what they accomplished the day before and what they plan to achieve today. It is important these meetings do not exceed 15 minutes so they don’t impact on productivity. 
+ 
+When a sprint is finished is finished there will be two meetings. One will be a presentation with the stakeholder to present your progress. The second meeting will be a breakdown of the previous sprint, a discussion on what can be improved and how team members handle work loads during the sprint. 
+ 
+As teams incorporate these methodologies into their projects. They will enjoy the values and principles of Agile software development.
+
 
 ## Q4: Provide an overview and description of a standard source control process (100-200 words)
 
@@ -128,6 +130,13 @@ Never reuse password and make sure you use passphrases to protect yourself from 
 
 ## Q8: Research what your legal obligations are in relation to handling user data (100-200 words)
 
+When you are in a business that deals with user data it is important that you know your legal obligations when handling that user information. 
+
+In Australia you must conform to Australia's privacy principles if you: Provide a health service to a person or people. If you disclose personal information about an individual to anyone else. If you incentivise collecting information about an individual, is a contracted service provider under a Commonwealth agreement, if you are involved in credit reporting, have an annual turnover of $3 million or  if you are associated with a body corporate that is subject to anything above on this list.
+  
+If you are subject to these privacy principles you must take steps to ensure you meet the legal guidelines. 
+
+First is it our job to identify what kind of sensitive data we are handling. Is it personal, financial, or health related.
 
 
 ## Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure. (100-200 words)
@@ -184,3 +193,5 @@ Never reuse password and make sure you use passphrases to protect yourself from 
  Q6: https://www.proserveit.com/blog/information-security-requirements
 
  Q7: https://digitalguardian.com/blog/101-data-protection-tips-how-keep-your-passwords-financial-personal-information-safe
+
+ Q8: https://www.nfplaw.org.au/sites/default/files/media/Privacy_Guide_Cth.pdf
