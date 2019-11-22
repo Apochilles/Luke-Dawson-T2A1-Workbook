@@ -29,7 +29,7 @@ It is a NoSQL database which means it stores data as independent objects as oppo
  
  MongoDB excels in simplicity of installation and implementation and providing high performance, high availability and horizontal scaling.  
  
-Mongo DB supports Mac, PC and Linux systems allowing you to stick to your preferred system. 
+MongoDB supports Mac, PC and Linux systems allowing you to stick to your preferred system. 
  
 MongoDB is a high performance database because it can access its indexed documents lightning fast. Relational databases have slower query times as they have to navigate nebulous fields and tables. 
  
@@ -126,15 +126,56 @@ When you are in a business that deals with user data it is important that you kn
 In Australia you must conform to Australia's privacy principles if you: Provide a health service to a person or people. If you disclose personal information about an individual to anyone else. If you incentivise collecting information about an individual, is a contracted service provider under a Commonwealth agreement, if you are involved in credit reporting, have an annual turnover of $3 million or  if you are associated with a body corporate that is subject to anything above on this list.
   
 If you are subject to these privacy principles you must take steps to ensure you meet the legal guidelines. 
-
-First is it our job to identify what kind of sensitive data we are handling. Is it personal, financial, or health related.
-
+ 
+First is it our job to identify what kind of  data we are handling. Is it personal, financial, or health related.
+ 
+Once we know what information we are handling, our highest priority is to make our clients aware that we are collecting this information. We must then explain what we intend to do with this information and who it will be shared with. If the information is sensitive (racial, political, religious, professional, sexual or criminal) ensure that the individual has consented to the gathering of this information. The individual must be aware that they have the right and ability to access and change this information at their discretion. 
+ 
+The collected information is also privy to disclosure restrictions that may vary depending on the country of area they are disclosed in. 
+ 
+By following these guidelines an organisation can hope to both protect a users privacy and keep yourself out of legal implication.
+ 
 
 ## Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure. (100-200 words)
 
+
+A relational database is a set of tables which is given a uniquely identifying name. Within each table are rows representing specific values that relate to each other in a meaningful way. These values are associated with attributes or columns in the table.
+ 
+It is an effective design concept as it is simple and thus, is easy to pick up.
+ 
+The theory of a relational database was built on the mathematical concept of a relation. Unlike alternatives like object databases, it's mathematical foundation lends itself to database algorithms.
+ 
+When planning a relational database a developer creates a database schema. It it within the schema that the relations, attributes and domains of the tables and columns are determined. A database key or superkey is a way for user to uniquely identify a row of data within a table. 
+ 
+
 ## Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database. (100-200 words)
 
+We have four operations we can perform on a relational database. These are insert, delete, modify and select. 
+
+Data intergrity is the way these operations are restricted within a relational database. This into three catergories: Domain, key and referential keys.
+
+
+Domain contraits protect the way we accept data into the fields of our tables. In the schema we specifiy data types such as integer and strings and determine their intended lengths. If the data we input is not allowed by our contraits it will be rejected. .We also set whether we allow a field to be Null or not. The database will be default to Null but there are circumstances where this is not what we intend.
+
+Key constraits allow unique values to have only one idenifying key.  
+
+Referential data constraits only allow related fields in tables to interact. If you try and access a field that is not allowed by a foreign key you will be denied access to the field. 
+
+
 ## Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database. (100-200 words)
+
+Data manipulation languages or DML are a computer language that gives a user a commands to manipulate data in a database. 
+ 
+DML is high level language as it was designed to be easily interpreted by a human and give them easy access to the database. through DML, the user can has access to the SELECT, UPDATE, INSERT INTO and DELETE FROM commands. These commands are subject to subject to the rules of the database. If you break these rules the data will not be manipulated and the database will rollback the command.
+ 
+The SELECT command is used to request a specific rows from a table in your database. The syntax is simple as the language intends and you simply select a column name from a table name. 
+ 
+The UPDATE command is used to alter data in rows of a table in your database. The query will act on a set of records, not just one record so it is important to specify which record you want to update by id. To update data the user selects a value in a column through a table and applies a condition to it. 
+ 
+The INSERT INTO command is used to add new records into a table in your database. It is primarily used to add records to the end of a table with an auto incremented primary key. to Insert records into a table, the user simply inserts a value into a column in a table. 
+ 
+The DELETE FROM command is used to remove records from a table. It can be complicated because a deleted record cannot be associated with any other table.  To delete the user specifies a table name and a condition.
+
 
 ## Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O) (300-500 words)
 
@@ -186,3 +227,13 @@ First is it our job to identify what kind of sensitive data we are handling. Is 
  Q7: https://digitalguardian.com/blog/101-data-protection-tips-how-keep-your-passwords-financial-personal-information-safe
 
  Q8: https://www.nfplaw.org.au/sites/default/files/media/Privacy_Guide_Cth.pdf
+
+ Q9,Q11,Q12:
+     https://www2.cs.sfu.ca/CourseCentral/354/zaiane/material/notes/Chapter3/node2.html
+     https://dondi.lmu.build/share/db/relational1.pdf
+     https://coderacademy.instructure.com/courses/240/pages/introduction-to-databases?module_item_id=9871
+     https://www.guru99.com/relational-data-model-dbms.html
+     https://opentextbc.ca/dbdesign01/chapter/chapter-7-the-relational-data-model/
+     https://www.cs.uct.ac.za/mit_notes/database/htmls/chp02.html 
+     https://www.techopedia.com/definition/1179/data-manipulation-language-dml
+     https://www.simplilearn.com/data-manipulation-in-sql-tutorial
