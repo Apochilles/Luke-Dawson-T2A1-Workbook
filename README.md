@@ -5,59 +5,62 @@
 
 ## Q1: Describe the architecture of a typical Rails application (200-300 words)
 
-Ruby on Rails is a code library that expands the capabilities of the Ruby programming language. It is a web development framework capable of full stack web application development specifically with a database back-end. 
+Ruby on Rails is a code library that expands the capabilities of the Ruby programming language. It is a web development framework capable of full-stack web application development specifically with a database back-end. 
  
 At the heart of Rail’s design is Model-View-Controller (MVC) architecture. 
  
-The Model governs the business logic of the application. Each model in your application governs a different table in your database and it is within the model that the developer establishes relationships between tables and relevant data validations. 
+The Models govern the business logic of the application. Each model in an application controls a different table in the database, and it is within the model that the developer establishes relationships between tables and relevant data validations. 
  
-The View governs the display logic and is the front end of your web application. Views use HTML to structure the web app page layouts but also include embedded Ruby to retrieve database records and render them to the browser. Assets are the files that supply our chosen visual content to our Views rendered in the browser. The developer can customise these with CSS and Bootstrap. 
+The View governs the display logic and is the front-end of your web application. View files use HTML to structure the web page layouts but can also use embedded Ruby to retrieve database records and render them to the browser.
+
+Assets are the files that supply our chosen visual content. We link these files into the View files for rendering in the browser. The developer can customise the views with CSS and Bootstrap. 
  
-The controller governs application flow between the Model and View. The Controller interprets browser requests and references Model data to respond to the views to present the information. 
+The Controller governs application flow between the Model and View. The Controller interprets browser requests and references Model data to respond to the Views to present the information. As Rails is designed using Ruby, each controller represents a class and you assign these classes methods through actions. 
  
-Routes convert URL paths into a form our application can interpret.These are configured in the routes file and include a controller and an action specified to complete an HTTP request. 
+Routes convert URL paths into a form our application can interpret. These are configured in the routes file and include a controller and an action specified to complete an HTTP request. 
  
-The Ruby on Rails server creates a Web Server that listens to an IP and a port and is intractable with a web browser.On your local machine, this defaults to port 3000 and it is here that you can preview your web application.
+The Ruby on Rails server creates a Web Server that listens to an IP and a port and is intractable with a web browser. On your local machine, this defaults to port 3000 and it is here that the developer can preview their web application.
  
-The organisation of these components in a folder structure allows us easy navigation around our app. 
+The organisation of these aspects within the Rails folder structure allows developers easy navigation around the app, optimising speedy and intuitive development. 
 
 ## Q2: Identify a database commonly used in web applications (including Rails) and discuss the pros and cons of this database (150 - 250 words )
 
- Mongo DB is an open source, dynamic, object oriented and scalable database. 
+MongoDB is an open-source, dynamic, object-oriented and scalable database.
  
-It is a NoSQL database which means it stores data as independent objects as opposed to being stored in columns and rows as they would in an SQL database. It represents these files as JSON or BSON documents. Developers can operate it with Javascript notation if the developer exports in JSON documents making it a popular choice for web developers. 
+It is a NoSQL database which means it stores data as independent objects as opposed to data being stored in columns and rows as the standard in an SQL database. MongoDB represents these files as JSON or BSON documents. Developers can operate it with Javascript notation, making it a popular choice for web developers.
  
- MongoDB excels in simplicity of installation and implementation and providing high performance, high availability and horizontal scaling.  
+MongoDB excels in the simplicity of installation and implementation and provides high performance, high availability, and horizontal scaling.  
  
-MongoDB supports Mac, PC and Linux systems allowing you to stick to your preferred system. 
+MongoDB supports Mac, PC, and Linux systems allowing different developers to work on their preferred systems.
  
-MongoDB is a high performance database because it can access its indexed documents lightning fast. Relational databases have slower query times as they have to navigate nebulous fields and tables. 
+MongoDB is a high-performance database because it accesses its indexed documents lightning fast. Relational databases have slower query times as they have to navigate nebulous fields and tables.
  
-MongoDB is a horizontally scalable database. Through a process called Sharding, you can spread your database over multiple machines and combine their resources. This is much more flexible than competitors that are vertical scaling, which means you must host your database on a single machine. 
+MongoDB is a horizontally scalable database. Through a process called Sharding, you can spread your database over multiple machines and combine their resources. This is much more flexible than competing databases that use vertical scaling. Vertical scaling restricts databases into only being hosted on one machine.  
  
-These qualities make it very useful for Web Developers looking to build web applications quickly, with diverse data that need scale flexibly and efficiently. Examples of this include Codecademy, Google Search and eBay. 
+These qualities make it very useful for Web developers looking to build web applications quickly, with diverse data that need to scale flexibly and efficiently. Examples of this include Codecademy, Google Search and Uber.
  
-However, if you need table joins you are out of luck because of the NoSql nature of the database. MongoDB is best when you have vast amounts of data but don’t need it to be relational. It also may be unsuitable as you have to hire DB admins who fully understand NoSQL. It is extremely memory hungry because of its reliance a memory-mapped file. This means your database is only as scalable as its access to system memory.
+However, if you need table joins, you are out of luck because of the NoSQL nature of the database. MongoDB is best when you have vast amounts of data but don’t need it to be relational. It also may be unsuitable as you have to hire DB admins who fully understand NoSQL.It is extremely memory hungry because of its reliance on a memory-mapped file. This means your database is only as scalable as its access to system memory.
+
 
 ## Q3: Discuss the implementation of Agile project management methodology (200-300 words)
 
 Agile software development encompasses a set of frameworks and practices that adhere to the Manifesto for Agile Software Development and its twelve principles. 
  
-In the 1990s the software industry  met with a developmental crisis. The problem was that the industry was just not fast enough to meet the demands of the customer. Traditionally, progress was made sequentially and they revealed the final product upon its completion. Companies found that by the time they were unveiling their products the customer's expectations had shifted.
+In the 1990s, the software industry met with a developmental crisis. The problem was that the industry was just not fast enough to meet the demands of the customer. Traditionally, progress was made sequentially, and they revealed the final product upon its completion. Companies found that by the time they were unveiling their products, the customer's expectations had shifted.
  
-In 2011, after years of experimentation and discussion, they formalised a new method that addressed the concerns of the industry. This was the Agile Manifesto, and it contained 4 core values and 12 guiding principles.
+In 2011, after years of experimentation and discussion, a group of developers formalised a new method that addressed the concerns of the industry. This was the Agile Manifesto, and it contained 4 core values and 12 guiding principles.
  
-But a philosophy is one thing. Agile needed some methodologies to help teams incorporate these values and principles into their projects. Popular examples of this are Scrum, Kanban and Extreme programming but all these frameworks follow the same process. 
+But philosophy is one thing. Agile needed some methodologies to help teams incorporate these values and principles into their projects. Popular examples of this are Scrum, Kanban, and Extreme programming, but all these frameworks follow the same process. 
  
-You must plan your project with a clear end goal and with Agile’s values and principles in mind. Then you must break this process down into a roadmap that will represent all the features that will make up your final product. 
+Developers must plan their project with a clear end goal and with Agile’s values and principles in mind. Then they must break this process down into a roadmap that will represent all the features that will make up their final product. 
  
-You will then break each feature into short development cycles called sprints. Before these sprints begin, the team must plan how much will be achieved, what will be achieved and by whom. This process should be visually documented and accessible by every member of the team. 
+They then must break each feature down into short development cycles called sprints. Before these sprints begin, the team must plan workload expectations and who will work on what. The team will visually document this plan and ensure it is accessible to every stakeholder. 
  
-During the development process there should be daily meetings. In these meeting team members will briefly speak about what they accomplished the day before and what they plan to achieve today. It is important these meetings do not exceed 15 minutes so they don’t impact on productivity. 
+During the development process, there should be daily meetings. In these meetings, team members will briefly speak about what they accomplished the day before and what they plan to achieve today. It is important these meetings do not exceed 15 minutes so they don’t impact productivity. 
  
-When a sprint is finished is finished there will be two meetings. One will be a presentation with the stakeholder to present your progress. The second meeting will be a breakdown of the previous sprint, a discussion on what can be improved and how team members handle work loads during the sprint. 
+When finishing a sprint, there will be two meetings. One will be a presentation with the stakeholder to present your progress. The second meeting will be a breakdown of the previous sprint, a discussion on what the team can improve and how team members handle workloads during the sprint. 
  
-As teams incorporate these methodologies into their projects. They will enjoy the values and principles of Agile software development.
+Teams incorporating these methodologies into their projects will enjoy the values and principles of Agile software development.
 
 ## Q4: Provide an overview and description of a standard source control process (100-200 words)
 
@@ -89,51 +92,42 @@ Finally you need to consider exit criteria. All planned tests should be have bee
 
 ## Q6: Discuss and analyse requirements related to information system security (100-200 words)
 
-A businesses security requirements range on a case by case business. Identifying what aspects your business needs to protect itself against is extremely important whether it be malware, system availability loss or data compromise. It is also important to adapt as threats grow more intelligent and aggressive every day. 
+A business's security requirements range on a case by case business. Identifying what aspects your business needs to protect itself against is extremely important whether it be malware threats, system availability loss or data compromise, It is important to adapt as threats grow more intelligent and aggressive every day. 
  
-There are three obligations a business must consider when implementing these defences. First, protecting the business second, legal compliance and third, customer protection.
+There are three obligations a business must consider when implementing these defenses. First, protecting the business second, legal compliance and third, customer protection.
 
-IT security should begin with a contigency plan for worst case scenario. 
+IT security should begin with a contingency plan for the worst-case scenario. Next, they need to identify the threats and prioritise them by severity and likelihood. Next, they need to raise awareness of bad practices within the business to ensure every one is as protected as possible. Next defenses need to be implemented and maintained. Finally, end-users should be prioritised. The users must be aware of the risks and know what we're doing to maintain their privacy. Implemented practices should be user-friendly and easy to maintain. 
 
-Next they need to identify the threats and prioritise them by severity and likelyhood.
-
-Next they need to raise awareness of bad practices within the business to ensure everyone is as protected as possible.
-
-Next defenses need to be implemented and maintained 
-
-next end users should be prioritied. The users must be aware of the risks and know what we're doing to maintain their privacy. Implemented practices should be user friendly and easy to maintain. 
-
-Once everything is in place it is important that the IT security team is confident but they must stay viligant and up to date with evolving threats 
+Once everything is in place it is important that the IT security team is confident but they must stay vigilant and up to date with evolving threats 
 
 ## Q7: Discuss common methods of protecting information and data (100-200 words)
 
- 
-In this modern age it is extremely important to ensure you are as protected as possible against cyber threats. 
+In this modern age, it is extremely important to ensure you are as protected as possible against cyber threats. 
  
 As a user is it important we encrypt our data when possible. Mail programs on major operating systems now have encryption plugins that encrypt and decrypt messages to ensure they are not intercepted during sending. Another thing to ensure is that your OS of choice is automatically updating so you have the latest possible security features. 
  
 We must also backup our data. This has never been easier as we can create backups on physical hard drives but we can also upload our files to the cloud. Most devices have some automatic way of storing user data in the cloud so you're safe knowing your backups are constantly updated. If you stop using a device you should wipe your hard disk to factory settings so you are protecting if it is stolen or becomes lost
  
-We must also keep up to data with malware protection by installing the latest software and doing regular scans to prevent malware stealing our private information.
+We must also keep up to data with malware protection by installing the latest software and doing regular scans to prevent malware from stealing our private information.
  
-Never reuse password and make sure you use passphrases to protect yourself from dictionary attacks. Never store your password on any device in any form.  
+Never reuse a password and make sure you use passphrases to protect yourself from dictionary attacks. Never store your password on any device in any form.  
 
 
 ## Q8: Research what your legal obligations are in relation to handling user data (100-200 words)
 
 When you are in a business that deals with user data it is important that you know your legal obligations when handling that user information. 
 
-In Australia you must conform to Australia's privacy principles if you: Provide a health service to a person or people. If you disclose personal information about an individual to anyone else. If you incentivise collecting information about an individual, is a contracted service provider under a Commonwealth agreement, if you are involved in credit reporting, have an annual turnover of $3 million or  if you are associated with a body corporate that is subject to anything above on this list.
+In Australia, you must conform to Australia's privacy principles if you: Provide a health service to a person or people. If you disclose personal information about an individual to anyone else. If you incentivise collecting information about an individual, is a contracted service provider under a Commonwealth agreement, if you are involved in credit reporting, have an annual turnover of $3 million or if you are associated with a body corporate that is subject to anything above on this list.
   
 If you are subject to these privacy principles you must take steps to ensure you meet the legal guidelines. 
  
-First is it our job to identify what kind of  data we are handling. Is it personal, financial, or health related.
+First is it our job to identify what kind of data we are handling. Is it personal, financial, or health-related?
  
 Once we know what information we are handling, our highest priority is to make our clients aware that we are collecting this information. We must then explain what we intend to do with this information and who it will be shared with. If the information is sensitive (racial, political, religious, professional, sexual or criminal) ensure that the individual has consented to the gathering of this information. The individual must be aware that they have the right and ability to access and change this information at their discretion. 
  
-The collected information is also privy to disclosure restrictions that may vary depending on the country of area they are disclosed in. 
+The collected information is also privy to disclosure restrictions that may vary depending on the country or area they are disclosed in. 
  
-By following these guidelines an organisation can hope to both protect a users privacy and keep yourself out of legal implication.
+By following these guidelines an organisation can hope to both protect a user's privacy and keep yourself out of legal implication.
  
 
 ## Q9: Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure. (100-200 words)
@@ -152,27 +146,26 @@ When planning a relational database a developer creates a database schema. It it
 
 We have four operations we can perform on a relational database. These are insert, delete, modify and select. 
 
-Data intergrity is the way these operations are restricted within a relational database. This into three catergories: Domain, key and referential keys.
+Data integrity is the way these operations are restricted within a relational database. It is split into three categories: Domain, key, and referential keys.
 
+Domain constraints protect the way we accept data into the fields of our tables. In the schema, we specify data types such as integer and strings and determine their intended lengths. If the data we input is not allowed by our constraints it will be rejected. .We also set whether we allow a field to be Null or not. The database will default to Null but there are circumstances where this is not what we intend.
 
-Domain contraits protect the way we accept data into the fields of our tables. In the schema we specifiy data types such as integer and strings and determine their intended lengths. If the data we input is not allowed by our contraits it will be rejected. .We also set whether we allow a field to be Null or not. The database will be default to Null but there are circumstances where this is not what we intend.
+Key constraints allow unique values to have only one identifying key. Primary key constraits restrict any duplicate primary keys from being inserted into row. Foreign key constaits will prevent a row from being added, modified or removed unless it's foreign key matches a primary key in it's parent table. A unique key constrait another way to protect unique records in your database without relying on a primary or foreign key.
 
-Key constraits allow unique values to have only one idenifying key.  
-
-Referential data constraits only allow related fields in tables to interact. If you try and access a field that is not allowed by a foreign key you will be denied access to the field. 
-
+Referential data constraints only allow related fields in tables to interact. If you try and access a field that is not allowed by a foreign key you will be denied access to the field. 
 
 ## Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database. (100-200 words)
 
-Data manipulation languages or DML are a computer language that gives a user a commands to manipulate data in a database. 
+
+Data manipulation languages or DML are a computer language that gives a user commands to manipulate data in a database. 
  
-DML is high level language as it was designed to be easily interpreted by a human and give them easy access to the database. through DML, the user can has access to the SELECT, UPDATE, INSERT INTO and DELETE FROM commands. These commands are subject to subject to the rules of the database. If you break these rules the data will not be manipulated and the database will rollback the command.
+DML is a high-level language as it was designed to be easily interpreted by a human and give them easy access to the database. through DML, the user can have access to the SELECT, UPDATE, INSERT INTO and DELETE FROM commands. These commands are subject to subject to the rules of the database. If you break these rules the data will not be manipulated and the database will roll back the command.
  
-The SELECT command is used to request a specific rows from a table in your database. The syntax is simple as the language intends and you simply select a column name from a table name. 
+The SELECT command is used to request specific rows from a table in your database. The syntax is simple as the language intends and you simply select a column name from a table name. 
  
 The UPDATE command is used to alter data in rows of a table in your database. The query will act on a set of records, not just one record so it is important to specify which record you want to update by id. To update data the user selects a value in a column through a table and applies a condition to it. 
  
-The INSERT INTO command is used to add new records into a table in your database. It is primarily used to add records to the end of a table with an auto incremented primary key. to Insert records into a table, the user simply inserts a value into a column in a table. 
+The INSERT INTO command is used to add new records into a table in your database. It is primarily used to add records to the end of a table with an auto-incremented primary key. to Insert records into a table, the user simply inserts a value into a column in a table. 
  
 The DELETE FROM command is used to remove records from a table. It can be complicated because a deleted record cannot be associated with any other table.  To delete the user specifies a table name and a condition.
 
