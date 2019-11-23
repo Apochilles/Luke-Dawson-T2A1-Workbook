@@ -177,16 +177,77 @@ The INSERT INTO command is used to add new records into a table in your database
 The DELETE FROM command is used to remove records from a table. It can be complicated because a deleted record cannot be associated with any other table.  To delete the user specifies a table name and a condition.
 
 
-## Q12: Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O) (300-500 words)
+## Q12/13: Identify and explain the workings of TWO sorting algorithms and TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O) (600-1000 words)
 
-## Q13: Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O) (300-500 words)
+Computers use algorithims to process data. They are procedures that the computer can follow to perform tasks in a way we intend them to. 
+
+Sorting algorithims are quite important when looking through a list of elmements and finding context between them. Common uses are alphabetizing names, ranging prices by low and high and sorting entries from first to last. 
+
+There are many different sorting algorithims dependant on the context of the search.    
+
+
+An example of a sorting algorithim is Bubble sort. Bubble sort compares the first two elements of an array and swaps them if required. It continues to compare until it has worked through every element in the array. 
+
+While it is an effective way to sort arrays it is extremely inefficient as it needs to look at every element in an array to fullly complete the search.
+
+Another example of a sorting algorithim is Insertion sort.
+
+
+
+Search algorithims are an extremely important part of many programs and websites. Without search algorithims we would have to search through long manual lists to find the specific information we were looking for. 
+
+Searching can be defined as finding x in a list of distinct elements to determine whether or not it is in the element list. If x = 0, our search will not return a result.   
+
+There are different many different search algorithims that have different uses dependant on the needs of the search.  
+
+An example of a search algorithim is Linear Search. 
+
+Another example of a search algorithim is B search
+
+
 
 ## Q14:  Conduct research into a marketplace website (app) and answer the following parts:  (50 - 100 words per)
+
+### Ebay.com
+
  ### a. What software is used by the app?
- ### b. What hardware is used by the app?
+ As of this year, Ebay is 24 years old so it has 
+ 
+  ### b. What hardware is used by the app?
+
+Ebay's need for servers has exploded exponentially since 1995 and it's server needs have changed with it. By 1999 it was one large database server with some smaller systems but by 2005 it grew to require 200 individual databases and 20 search servers.
+
+Ebay's architecture is grid computing which pools the resources of mutiple computers in a shared network. The sheer number of servers allow for countless people to seemlessly browse, buy and sell simultaneously. 
+
+Ebay has four times the amount of servers it actually uses in the case of system crashes. 
+
+ This is extremely scalable as EBay grows they can just add more machines to the grid to increase resources. 
+
+
  ### c. Describe the interaction of technologies within the app
+
+Everything in the Ebay app is built around the Java stack. It has gone through 4 phases of architecture. Orginally in it's inception in 1995 everything was built with perl and didn't even use a database, it just stored everything as files. 
+
+In it's secret iteration perl was scrapped for a XSLT front-end and C++ back-end. It had one database in a master-slave configuration. The XSLT took the XML from the backend and converted it into a HTML webpage for the end user. 
+
+In it's third iteration as growth continued to explode they switched to Java based architecture which has become the standard for the Ebay going forward. The only C++ that remained was paticularly geared towards the growing needs for searching the databases. With the introduction of Java Ebay was able to scale across thousands of relational databases. Front-end still used xml Ebay just changed from C++ classes to Java classes. 
+
+It's current iteration Ebay has fully embraced Java and Javascript. Everything on Ebay is code including images, links, content even CSS which is also built with Java classes. 
+
+Due to the high volume of Java code required Ebay uses Eclipse which is a tool for rapid development of features. 
+
+
  ### d. Describe the way data is structured within the app
+
+Structuring data for Ebay is extremely important. Well structured listings lead to an increase in sales for sellers and better customer satisfaction for buyers. 
+
+We must ensure that the information provided for listings is accurate 
+
+
+
  ### e. Identify entities which must be tracked by the app
+
+
  ### f. Identify the relationships and associations between the entities you have identified in part (e)
  ### g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
 
@@ -237,3 +298,16 @@ The DELETE FROM command is used to remove records from a table. It can be compli
      https://www.cs.uct.ac.za/mit_notes/database/htmls/chp02.html 
      https://www.techopedia.com/definition/1179/data-manipulation-language-dml
      https://www.simplilearn.com/data-manipulation-in-sql-tutorial
+
+Q12, Q13:
+     https://betterexplained.com/articles/sorting-algorithms/
+     https://codeburst.io/algorithms-i-searching-and-sorting-algorithms-56497dbaef20
+
+Q14: https://www.infoworld.com/article/3041064/what-ebay-looks-like-under-the-hood.html
+     https://stackshare.io/ebay/ebay
+     https://tech.ebayinc.com/engineering/how-we-built-ebays-first-node-js-application/
+     http://highscalability.com/blog/2009/3/31/ebay-history-and-architecture.html
+     https://www.youtube.com/watch?v=yVNF6COKQwE - Eclipse Day at the Googleplex: Eclipse at Ebay
+     https://stackabuse.com/xslt-explained/
+     https://algopix.com/blog/how-data-structuring-will-make-or-break-your-ebay-business
+     https://www.listsmart.io/article/why-structured-data-essential-ebay
