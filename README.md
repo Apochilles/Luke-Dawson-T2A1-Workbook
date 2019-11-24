@@ -86,7 +86,7 @@ Next, testers need to design the tests around what information they gathered dur
 
 Consequently, they need to execute the tests as designed as per their project management methodology. 
 
-Finally, they need to consider the exit criteria. All planned tests should be have been covered with a 90% success rate and all critical defects must be 100% fixed 
+Finally, they need to consider the exit criteria. All planned tests should be have been covered with a 90% success rate and all critical defects must be 100% fixed. 
 
 ## Q6: Discuss and analyse requirements related to information system security (100-200 words)
 
@@ -300,7 +300,6 @@ Accommodations:
  Room types: 
  - has many Accommodations 
 
- 
  ### g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
  
 ### Airbnb ERD:
