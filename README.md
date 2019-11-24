@@ -216,19 +216,13 @@ A common use for Binary search is in large databases organised by a numbered key
 
  ### a. What software is used by the app?
 
-For the back-end Airbnb relies on Rails, making developing new features and scaling a breeze. To complement the framework they use Apache Thrift to bind C code with Ruby. Airbnb has plenty of dynamic data so it relies on ReactJS to control It's front-end and give it flexibility and efficiency. It also uses HTML5, CSS, jQuery, and elements of Node JS.
+Airbnb uses the Programming languages Ruby and Javascript. They are built upon a combination of Ruby on Rails and React framework. The app is hosted on an Nginx webserver. 
 
-Airbnb uses an Nginx webserver to handle traffic demands with a proxy server to lighten the load. It also offers security and scalability. It uses Redis for caching to increase response times.
-
-For storage, AirBNB originally used MySQL but changed to cloud storage once demands increased. They use Amazon RDS as a cloud database, EC2 for hosting and S3 and EBS for cloud storage.  
-
-For the large amounts of user data, Airbnb uses Presto, Druid, and Airpal to handle the analytics and processing. 
-
+Airbnb can be accessed on all popular web browsers. It also has a useful application for Android and Apple devices, mobile and tablet. 
 
   ### b. What hardware is used by the app?
 
-
-
+When Airbnb was conceived it was hosted on a local SQL database but as demands grew they developed into the cloud. Profile and property Images as stored on Amazon S3. General data is stored in a cloud-based RDS relational database. Hosting is provided by Amazon EC2 which migates high traffic spikes.Key-value storage is handled by Redis.
 
  ### c. Describe the interaction of technologies within the app
 
@@ -240,24 +234,99 @@ For storage, AirBNB originally used MySQL but changed to cloud storage once dema
 
 For the large amounts of user data, Airbnb uses Presto, Druid, and Airpal to handle the analytics and processing. 
 
-
  ### d. Describe the way data is structured within the app
+Data is structured within the app to give users an optimal experience when navigating. They rely on a knowledge graph that delivers structured data linking their unique offerings with travelers around the world. 
 
-Structuring data for Ebay is extremely important. Well structured listings lead to an increase in sales for sellers and better customer satisfaction for buyers. 
-
-We must ensure that the information provided for listings is accurate 
-
-
+From the home page, they offer a carousel delivering informed travel destinations. Once a user has chosen a location the app links location amenities with user interests to best serve their trip. The app them recommends nearby locations as it is proven through their research that travelers often stay near where they want to visit.
 
  ### e. Identify entities which must be tracked by the app
 
+On Airbnb there is one user type. This user can both provide properties and rent properties simultaneously. Therefore, you must have a table that connects rentees with renters and this is done through a booking table. When a renter puts up a property they select a country, state and city from Airbnbs accepted locations. They then use Airbnb's house and room type options to best describe their home. Rentees can leave reviews for properties that will be attached to that property for future renters. Transactions are handled separately and the currency is converted to the desired currency of the renter. 
+
 
  ### f. Identify the relationships and associations between the entities you have identified in part (e)
+
+Users:
+
+
+- has many Bookings 
+- has many Wishlists 
+- has many Accommodations 
+
+Accommodations:
+
+- has many Bookings
+- has many Users through Bookings
+- has one Country
+- has one Currency 
+- has one City
+- has one Property type
+- has one Room Type 
+- has one State 
+
+ Bookings:
+  
+- has one User 
+- has one Wishlist 
+- has one Transaction
+
+ Wishlist: 
+ - has one User 
+ - has many Accommodations 
+
+ Transactions:
+ - has one Currency 
+ - has one Booking 
+ - has one Accommodation 
+
+ Reviews 
+- has one User
+- has many Accommodations  
+- has many Bookings 
+
+ Countries: 
+ - has many Accommodations  
+
+ Cities: 
+ - has many Accommodations  
+
+ States: 
+ - has many Accommodations  
+
+ Currencies: 
+ - has many Transactions 
+
+ Property types: 
+ - has many Accommodations  
+
+ Room types: 
+ - has many Accommodations 
+
+ 
  ### g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
+ 
+### Airbnb ERD:
+
+https://drive.google.com/file/d/1umKHbH8gwv17mt3oNIBiQd6xEBQE0ZJf/view
 
 
 
- References: 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ## References: 
  Q1:
  https://www.techcareerbooster.com/blog/ruby-on-rails-architecture-overview-for-beginners
  https://adrianmejia.com/ruby-on-rails-architectural-design/
@@ -321,3 +390,4 @@ Q14: https://hub.packtpub.com/what-software-stack-does-airbnb-use/
      https://redislabs.com/wp-content/uploads/2016/03/15-Reasons-Caching-is-best-with-Redis-RedisLabs-1.pdf
      https://medium.com/airbnb-engineering/druid-airbnb-data-platform-601c312f2a4c
      https://medium.com/airbnb-engineering/data-infrastructure-at-airbnb-8adfb34f169c
+     https://learn.g2.com/structured-vs-unstructured-data
