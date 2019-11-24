@@ -39,7 +39,7 @@ MongoDB is a horizontally scalable database. Through a process called Sharding, 
  
 These qualities make it very useful for Web developers looking to build web applications quickly, with diverse data that need to scale flexibly and efficiently. Examples of this include Codecademy, Google Search and Uber.
  
-However, if you need table joins, you are out of luck because of the NoSQL nature of the database. MongoDB is best when you have vast amounts of data but don’t need it to be relational. It also may be unsuitable as you have to hire DB admins who fully understand NoSQL.It is extremely memory hungry because of its reliance on a memory-mapped file. This means your database is only as scalable as its access to system memory.
+However, if you need table joins, you are out of luck because of the NoSQL nature of the database. MongoDB is best when you have vast amounts of data but don’t need it to be relational. It also may be unsuitable as you have to hire DB admins who fully understand NoSQL. It is extremely memory hungry because of its reliance on a memory-mapped file. This means your database is only as scalable as its access to system memory.
 
 
 ## Q3: Discuss the implementation of Agile project management methodology (200-300 words)
@@ -66,52 +66,55 @@ Teams incorporating these methodologies into their projects will enjoy the value
 
 Source control is how developers maintain, share and archive their source code.  
 
-A developer will have a working copy of a project on their local machine and a repository usually hosted in the cloud. Source control allows the developer to keep a record of changes made during the course of development. It allows many people to work on the same code without effecting each others changes and allows a developer to access their code from different computers. 
+A developer will have a working copy of a project on their local machine and a repository usually hosted in the cloud. Source control allows the developer to keep a record of changes made during development. It allows many people to work on the same code without affecting each other's changes and allows a developer to access their code from different computers. 
 
-A developers working copy is a playground for them to experiment with code to their hearts content. When you want to share or document your code you commit your changes to a repository. Sometimes a repo can contain edits that we want to apply to our working copy, this process is called updating.  
+Developer's local files are a playground for them to experiment with code to their heart's content. When you want to share or document their code, they can commit their changes to a repository. Sometimes a repo can contain edits we want to apply to our working copy, we call this process updating and we do this by pulling down the updated code.
 
-There are two types of history on a repository. Linear history is a sequential list of changes but there is also sometimes a branching history. A branching history will contain split versions that will merge again at a later commit.
+There are two types of history on a repository. Linear history is a sequential list of changes, but there is also sometimes a branching history. A branching history will contain split versions that will merge again at a later commit.
 
-Good source control pratice is to commit code with a singular purpose and with a descriptive commit messages. It is also important to share your changes regularly and make sure you're updating to others changes as well.
-
+Good source control practice is to commit code with a singular purpose and with a descriptive commit message. It is also important to share your changes regularly and make sure you’re updating to other's changes.
 
 ## Q5: Provide an overview and description of a standard software testing process (100-200 words)
 
-Software testing is utilizing software with the intention of discovering and documenting bugs. It is one of the ways we verify our code executes successfully and as intended. 
+Software testing is utilizing software to discover and document bugs. It is one of the ways we verify our code executes successfully and as intended. 
 
-Software testing process is the a process that ensures that software is checked and bugs are eliminated in a timely and and efficient manner.
+The software testing process is a process that ensures that software is monitored and bugs are eliminated in a timely and efficient manner.
 
-A project should begin with a Test strategy and a Test plan. This formal document contains the softwares systems, configurations, features and details how the tests will be carried out. Processes, approaches, schedule. 
+A project should begin with a Test strategy and a Test plan. These formal documents contain the software systems, configurations, features and details of how the tests will be carried out. It will also include Processes, approaches and a schedule. 
 
-Next you need to design the tests around what information you gathered druing the stratergy and testing phase. 
+Next, testers need to design the tests around what information they gathered during the strategy and testing phase. 
 
-Next you need to execute the tests as designed as per your project management methodology 
+Consequently, they need to execute the tests as designed as per their project management methodology. 
 
-Finally you need to consider exit criteria. All planned tests should be have been covered with a 90% success rate and all critical defects must be 100% fixed 
-
+Finally, they need to consider the exit criteria. All planned tests should be have been covered with a 90% success rate and all critical defects must be 100% fixed 
 
 ## Q6: Discuss and analyse requirements related to information system security (100-200 words)
 
-A business's security requirements range on a case by case business. Identifying what aspects your business needs to protect itself against is extremely important whether it be malware threats, system availability loss or data compromise, It is important to adapt as threats grow more intelligent and aggressive every day. 
+A business's security requirements range vastly depending on what the company does and who and what it is responsible for. 
+
+Identifying what aspects your business needs to protect itself against is extremely important whether it be malware threats, system availability loss or data compromise.
+
+It is important to adapt and stay vigilant as these threats grow more intelligent and aggressive every day. 
  
-There are three obligations a business must consider when implementing these defenses. First, protecting the business second, legal compliance and third, customer protection.
+There are three obligations a business must consider when implementing these defenses. Protecting their business, ensuring legal compliance, and protecting customer data.
 
-IT security should begin with a contingency plan for the worst-case scenario. Next, they need to identify the threats and prioritise them by severity and likelihood. Next, they need to raise awareness of bad practices within the business to ensure every one is as protected as possible. Next defenses need to be implemented and maintained. Finally, end-users should be prioritised. The users must be aware of the risks and know what we're doing to maintain their privacy. Implemented practices should be user-friendly and easy to maintain. 
+IT security should begin with a contingency plan for the worst-case scenario. Then they need to identify the threats and prioritise them by severity and likelihood. The business needs to raise awareness of bad practices within the business to ensure every one is as protected as possible. Importantly, defenses need to be implemented and maintained. Finally, end-users should be prioritised. 
 
-Once everything is in place it is important that the IT security team is confident but they must stay vigilant and up to date with evolving threats 
+The users must be aware of potential risks we must discover what we're doing to safeguard their privacy. Implemented practices should be user-friendly and easy to maintain. 
+
+Once everything is in place it is important that the IT security team is confident but they must stay vigilant and prepared for the evolving threats of the tech industry.
 
 ## Q7: Discuss common methods of protecting information and data (100-200 words)
 
 In this modern age, it is extremely important to ensure you are as protected as possible against cyber threats. 
  
-As a user is it important we encrypt our data when possible. Mail programs on major operating systems now have encryption plugins that encrypt and decrypt messages to ensure they are not intercepted during sending. Another thing to ensure is that your OS of choice is automatically updating so you have the latest possible security features. 
+As a user, they must encrypt our data whenever possible. Mail programs on major operating systems now have encryption plugins that encrypt and decrypt messages to ensure they are not intercepted during sending. Another thing to ensure is that their OS of choice is automatically updating so you have the latest possible security features. 
  
-We must also backup our data. This has never been easier as we can create backups on physical hard drives but we can also upload our files to the cloud. Most devices have some automatic way of storing user data in the cloud so you're safe knowing your backups are constantly updated. If you stop using a device you should wipe your hard disk to factory settings so you are protecting if it is stolen or becomes lost
+They must also backup our data. This has never been easier as we can create backups on physical hard drives but they should also upload our files to safe storage in the cloud. Most devices have some automatic way of storing user data in the cloud so if you enable this you're safe knowing your backups are constantly updated. If you stop using a device you should wipe your hard disk to factory settings so you are protected if it is stolen or becomes lost
  
 We must also keep up to data with malware protection by installing the latest software and doing regular scans to prevent malware from stealing our private information.
  
 Never reuse a password and make sure you use passphrases to protect yourself from dictionary attacks. Never store your password on any device in any form.  
-
 
 ## Q8: Research what your legal obligations are in relation to handling user data (100-200 words)
 
@@ -123,7 +126,7 @@ If you are subject to these privacy principles you must take steps to ensure you
  
 First is it our job to identify what kind of data we are handling. Is it personal, financial, or health-related?
  
-Once we know what information we are handling, our highest priority is to make our clients aware that we are collecting this information. We must then explain what we intend to do with this information and who it will be shared with. If the information is sensitive (racial, political, religious, professional, sexual or criminal) ensure that the individual has consented to the gathering of this information. The individual must be aware that they have the right and ability to access and change this information at their discretion. 
+Once we know what information we are handling, our highest priority is to make our clients aware that we are collecting this information. We must then explain what we intend to do with this information and who it will be shared with. If the information is sensitive (racial, political, religious, professional, sexual or criminal) ensure that the individual has consented to the gathering of this information. The clients must be aware that they have the right and ability to access and change this information at their discretion. 
  
 The collected information is also privy to disclosure restrictions that may vary depending on the country or area they are disclosed in. 
  
@@ -144,90 +147,98 @@ When planning a relational database a developer creates a database schema. It it
 
 ## Q10: Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database. (100-200 words)
 
-We have four operations we can perform on a relational database. These are insert, delete, modify and select. 
+We have four operations we can perform on a relational database: insert, delete, modify and select. 
 
-Data integrity is the way these operations are restricted within a relational database. It is split into three categories: Domain, key, and referential keys.
+Data integrity restricts these operations within a relational database. They are split into three categories: Domain, key, and referential integrity.
 
-Domain constraints protect the way we accept data into the fields of our tables. In the schema, we specify data types such as integer and strings and determine their intended lengths. If the data we input is not allowed by our constraints it will be rejected. .We also set whether we allow a field to be Null or not. The database will default to Null but there are circumstances where this is not what we intend.
+Domain constraints protect the way we accept data into the fields of our tables. In the schema, we specify data types such as integer and strings and determine their intended lengths. If the data we input is not allowed by our constraints it will be rejected. We also set whether we allow a field to be Null or not. The database will default to Null but there are situations where this not appropriate. 
 
-Key constraints allow unique values to have only one identifying key. Primary key constraits restrict any duplicate primary keys from being inserted into row. Foreign key constaits will prevent a row from being added, modified or removed unless it's foreign key matches a primary key in it's parent table. A unique key constrait another way to protect unique records in your database without relying on a primary or foreign key.
+Key constraints as rules we create for interaction between different tables and fields. Primary key constraints restrict any duplicate primary keys from being inserted into a row. Foreign key constraints prevent a row from being added, modified or removed unless it's foreign key matches a primary key in its parent table. A unique key constraint is another way to protect unique records in your database without relying on a primary or foreign key. To achieve this you must define a field as unique while generating it. Once this is done it will only accept a single null value and cannot have identical values in the database.  
 
-Referential data constraints only allow related fields in tables to interact. If you try and access a field that is not allowed by a foreign key you will be denied access to the field. 
+Referential integrity constraints restrict table interactions to those with a matching primary and foreign key. This prevents orphan files from being created in a database. An orphan record is one that references a primary key that does not exist. To ensure this does not happen, we set up our tables and fields with our primary foreign key column set to references.  
 
 ## Q11: Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database. (100-200 words)
 
-
 Data manipulation languages or DML are a computer language that gives a user commands to manipulate data in a database. 
  
-DML is a high-level language as it was designed to be easily interpreted by a human and give them easy access to the database. through DML, the user can have access to the SELECT, UPDATE, INSERT INTO and DELETE FROM commands. These commands are subject to subject to the rules of the database. If you break these rules the data will not be manipulated and the database will roll back the command.
+DML is a high-level language as it was designed to be easily interpreted by a human and give them easy access to the database. through DML, the user can have access to the SELECT, UPDATE, INSERT INTO and DELETE FROM commands. These commands are subject to the rules of the database. If you break these rules the data will not be manipulated and the database will roll back the command.
  
 The SELECT command is used to request specific rows from a table in your database. The syntax is simple as the language intends and you simply select a column name from a table name. 
  
 The UPDATE command is used to alter data in rows of a table in your database. The query will act on a set of records, not just one record so it is important to specify which record you want to update by id. To update data the user selects a value in a column through a table and applies a condition to it. 
  
-The INSERT INTO command is used to add new records into a table in your database. It is primarily used to add records to the end of a table with an auto-incremented primary key. to Insert records into a table, the user simply inserts a value into a column in a table. 
+The INSERT INTO command is used to add new records into a table in your database. It is primarily used to add records to the end of a table with an auto-incremented primary key. To insert records into a table, the user simply inserts a value into a column in a table. 
  
-The DELETE FROM command is used to remove records from a table. It can be complicated because a deleted record cannot be associated with any other table.  To delete the user specifies a table name and a condition.
-
+The DELETE FROM command is used to remove records from a table. It can be complicated because a deleted record associated with any other table will take any other fields with a foreign key with it.  To delete the user specifies a table name and a condition.
 
 ## Q12/13: Identify and explain the workings of TWO sorting algorithms and TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O) (600-1000 words)
 
-Computers use algorithims to process data. They are procedures that the computer can follow to perform tasks in a way we intend them to. 
+Computers use algorithms to process data. Algorithms are procedures that the computer can follow to perform tasks in a deliberate and useful way.
 
-Sorting algorithims are quite important when looking through a list of elmements and finding context between them. Common uses are alphabetizing names, ranging prices by low and high and sorting entries from first to last. 
+Sorting algorithms are important when looking through a list of elements and finding context between them. Common uses are alphabetizing names, ranging prices by low and high and sorting entries from first to last. 
 
-There are many different sorting algorithims dependant on the context of the search.    
+There are many sorting algorithms dependent on the context of the search ranging from very primitive to complicated and efficient.
 
+An example of a sorting algorithm is Bubble sort. Bubble sort contrasts the first two elements of an array and exchanges them if element one is higher than element two. Bubble sort continues comparing elements in pairs in descending order. It will only stop when it has worked through every element in the array. This is necessary as Bubble sort will need to compare every element in the list to get a result. 
 
-An example of a sorting algorithim is Bubble sort. Bubble sort compares the first two elements of an array and swaps them if required. It continues to compare until it has worked through every element in the array. 
+While it is an effective way to sort arrays, it is primitive and inefficient.  It needs to look at every element in an array to complete sorting. Therefore, the smaller the set of the data, the faster it will sort through the pairs in your array. 
 
-While it is an effective way to sort arrays it is extremely inefficient as it needs to look at every element in an array to fullly complete the search.
+Big O determines Bubble sort's best-case scenario as ``O(n) `` meaning it takes `` n `` iterations where `` n `` is the total elements in the list. This occurs when all elements in the list have already been sorted, therefore, no element will be swapped. If the list is unsorted in any way the time complexity with be determined to be `` O(n^2) ``. A common use case is when an unsorted list is small and a simple algorithm will be sufficient.
 
-Another example of a sorting algorithim is Insertion sort.
+Another example of a sorting algorithm is the Insertion sort. Insertion sort constructs its array by one sorted element at a time. While similar to bubble sort, it is quicker as it doesn’t have to check every pair reducing the number of swaps needed to complete sorting. It is still slow when sorting large lists but it is twice as fast as Bubble sort. 
 
+It is Identical to Bubble sort by Big O’s standards. It’s fastest time complexity is ``O(n) `` when the list is pre-sorted. If the list is unsorted in any way, then its time complexity with be determined as `` O(n^2) ``. A common use case is when a list is mostly sorted but a few elements are out of order. 
 
+Search algorithms are an important part of many programs and websites. Without search algorithms, we would have to search through long manual lists to find the specific information we were looking for. 
 
-Search algorithims are an extremely important part of many programs and websites. Without search algorithims we would have to search through long manual lists to find the specific information we were looking for. 
+We define searching, as finding `` x `` in a list of distinct elements to determine whether it is in the element list. If `` x = 0 ``, our search will not return a result.  
 
-Searching can be defined as finding x in a list of distinct elements to determine whether or not it is in the element list. If x = 0, our search will not return a result.   
+There are different many different search algorithms that have different use-cases dependant on the needs of the search. 
 
-There are different many different search algorithims that have different uses dependant on the needs of the search.  
+An example of a search algorithm is Linear Search. Linear search looks first the first list item to determine whether it is within your search criteria. If it is not it will move on the next item until it works the way through the entire list. It’s fastest time complexity will be ``O(1) ``, this occurs if there is only one element on the list and it’s the one you’re searching for. 
 
-An example of a search algorithim is Linear Search. 
+The worst-case will be ``O(N)`` if you are searching for an item that is not on the list but it will still have to iterate through every element to discover that. 
 
-Another example of a search algorithim is B search
+As linear search is the most primitive form of search it’s only use case is when a list is extremely small or only has one value. 
 
+Another example of a search algorithm is Binary search. Unlike other examples, I have provided, a Binary search is efficient as it can finesse its search based on the user’s criteria. A binary search first halves the total number of elements and then locks on to the desired element to identify whether it exists or not. Its efficiency is due to the fact it is always splitting the total number of elements it needs to search, efficiently removing irrelevant elements. It is important to note that the list must be presorted before Binary search can be utilized effectively 
+
+It’s best-case run time is `` O(1) `` meaning that the time taken is linear. This occurs when the value searched for is the point where the list is first split. 
+
+It’s average and worst-case run time is ``O(log n)``. The average case has to make log n divisions until only one element is left on the list. The worst case is when the element it is searching for is not on the list.
+
+A common use for Binary search is in large databases organised by a numbered key. 
 
 
 ## Q14:  Conduct research into a marketplace website (app) and answer the following parts:  (50 - 100 words per)
 
-### Ebay.com
+### Airbnb
 
  ### a. What software is used by the app?
- As of this year, Ebay is 24 years old so it has 
- 
+
+For the back-end Airbnb relies on Rails, making developing new features and scaling a breeze. To complement the framework they use Apache Thrift to bind C code with Ruby. Airbnb has plenty of dynamic data so it relies on ReactJS to control It's front-end and give it flexibility and efficiency. It also uses HTML5, CSS, jQuery, and elements of Node JS.
+
+Airbnb uses an Nginx webserver to handle traffic demands with a proxy server to lighten the load. It also offers security and scalability. It uses Redis for caching to increase response times.
+
+For storage, AirBNB originally used MySQL but changed to cloud storage once demands increased. They use Amazon RDS as a cloud database, EC2 for hosting and S3 and EBS for cloud storage.  
+
+For the large amounts of user data, Airbnb uses Presto, Druid, and Airpal to handle the analytics and processing. 
+
+
   ### b. What hardware is used by the app?
 
-Ebay's need for servers has exploded exponentially since 1995 and it's server needs have changed with it. By 1999 it was one large database server with some smaller systems but by 2005 it grew to require 200 individual databases and 20 search servers.
 
-Ebay's architecture is grid computing which pools the resources of mutiple computers in a shared network. The sheer number of servers allow for countless people to seemlessly browse, buy and sell simultaneously. 
-
-Ebay has four times the amount of servers it actually uses in the case of system crashes. 
-
- This is extremely scalable as EBay grows they can just add more machines to the grid to increase resources. 
 
 
  ### c. Describe the interaction of technologies within the app
 
-Everything in the Ebay app is built around the Java stack. It has gone through 4 phases of architecture. Orginally in it's inception in 1995 everything was built with perl and didn't even use a database, it just stored everything as files. 
+For the back-end Airbnb relies on Rails, making developing new features and scaling a breeze. To complement the framework they use Apache Thrift to bind C code with Ruby. Airbnb has plenty of dynamic data so it relies on ReactJS to control It's front-end and give it flexibility and efficiency. It also uses HTML5, CSS, jQuery, and elements of Node JS.
 
-In it's secret iteration perl was scrapped for a XSLT front-end and C++ back-end. It had one database in a master-slave configuration. The XSLT took the XML from the backend and converted it into a HTML webpage for the end user. 
+Airbnb uses an Nginx webserver to handle traffic demands with a proxy server to lighten the load. It also offers security and scalability. It uses Redis for caching to increase response times.
 
-In it's third iteration as growth continued to explode they switched to Java based architecture which has become the standard for the Ebay going forward. The only C++ that remained was paticularly geared towards the growing needs for searching the databases. With the introduction of Java Ebay was able to scale across thousands of relational databases. Front-end still used xml Ebay just changed from C++ classes to Java classes. 
+For storage, AirBNB originally used MySQL but changed to cloud storage once demands increased. They use Amazon RDS as a cloud database, EC2 for hosting and S3 and EBS for cloud storage.  
 
-It's current iteration Ebay has fully embraced Java and Javascript. Everything on Ebay is code including images, links, content even CSS which is also built with Java classes. 
-
-Due to the high volume of Java code required Ebay uses Eclipse which is a tool for rapid development of features. 
+For the large amounts of user data, Airbnb uses Presto, Druid, and Airpal to handle the analytics and processing. 
 
 
  ### d. Describe the way data is structured within the app
@@ -284,7 +295,9 @@ We must ensure that the information provided for listings is accurate
 
  Q9,Q11,Q12:
      https://www2.cs.sfu.ca/CourseCentral/354/zaiane/material/notes/Chapter3/node2.html
+     http://www.rampant-books.com/t_super_sql_124_referential_integrity_dri.htm
      https://dondi.lmu.build/share/db/relational1.pdf
+     https://opentextbc.ca/dbdesign01/chapter/chapter-9-integrity-rules-and-constraints/
      https://coderacademy.instructure.com/courses/240/pages/introduction-to-databases?module_item_id=9871
      https://www.guru99.com/relational-data-model-dbms.html
      https://opentextbc.ca/dbdesign01/chapter/chapter-7-the-relational-data-model/
@@ -295,12 +308,16 @@ We must ensure that the information provided for listings is accurate
 Q12, Q13:
      https://betterexplained.com/articles/sorting-algorithms/
      https://codeburst.io/algorithms-i-searching-and-sorting-algorithms-56497dbaef20
+     https://pediaa.com/what-is-the-difference-between-bubble-sort-and-insertion-sort/
+     https://brilliant.org/wiki/bubble-sort/
+     https://brilliant.org/wiki/insertion/
+     https://brilliant.org/wiki/binary-search/
 
-Q14: https://www.infoworld.com/article/3041064/what-ebay-looks-like-under-the-hood.html
-     https://stackshare.io/ebay/ebay
-     https://tech.ebayinc.com/engineering/how-we-built-ebays-first-node-js-application/
-     http://highscalability.com/blog/2009/3/31/ebay-history-and-architecture.html
-     https://www.youtube.com/watch?v=yVNF6COKQwE - Eclipse Day at the Googleplex: Eclipse at Ebay
-     https://stackabuse.com/xslt-explained/
-     https://algopix.com/blog/how-data-structuring-will-make-or-break-your-ebay-business
-     https://www.listsmart.io/article/why-structured-data-essential-ebay
+Q14: https://hub.packtpub.com/what-software-stack-does-airbnb-use/
+     https://www.freelancinggig.com/blog/2018/09/28/what-programming-language-is-airbnb-written-in/
+     https://medium.com/airbnb-engineering/accelerating-services-at-airbnb-by-building-a-blazing-fast-thrift-binding-for-ruby-8f63044ba149
+     https://www.nginx.com/resources/wiki/community/why_use_it/
+     https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=11&ved=2ahUKEwi1yMmz3oHmAhU36XMBHWpwAewQFjAKegQIARAH&url=https%3A%2F%2Fredis.io%2Ftopics%2Fintroduction&usg=AOvVaw1T_9kr5d-pRdIPY9bAV_TV
+     https://redislabs.com/wp-content/uploads/2016/03/15-Reasons-Caching-is-best-with-Redis-RedisLabs-1.pdf
+     https://medium.com/airbnb-engineering/druid-airbnb-data-platform-601c312f2a4c
+     https://medium.com/airbnb-engineering/data-infrastructure-at-airbnb-8adfb34f169c
