@@ -209,7 +209,6 @@ It’s average and worst-case run time is ``O(log n)``. The average case has to 
 
 A common use for Binary search is in large databases organised by a numbered key. 
 
-
 ## Q14:  Conduct research into a marketplace website (app) and answer the following parts:  (50 - 100 words per)
 
 ### Airbnb
@@ -247,7 +246,6 @@ On Airbnb there is one user type. This user can both provide properties and rent
  ### f. Identify the relationships and associations between the entities you have identified in part (e)
 
 Users:
-
 
 - has many Bookings 
 - has many Wishlists 
@@ -327,67 +325,111 @@ https://drive.google.com/file/d/1umKHbH8gwv17mt3oNIBiQd6xEBQE0ZJf/view
 
 
  ## References: 
- Q1:
+ ### Q1:
  https://www.techcareerbooster.com/blog/ruby-on-rails-architecture-overview-for-beginners
+ 
  https://adrianmejia.com/ruby-on-rails-architectural-design/
+ 
  https://rubyonrails.org/
+ 
  https://whatis.techtarget.com/definition/business-logic
+ 
  https://medium.com/@sagar.mane006/understanding-rest-representational-state-transfer-85256b9424aa
 
- Q2: 
+ ### Q2: 
  https://www.mongodb.com/what-is-mongodb
+ 
  https://www.guru99.com/what-is-mongodb.html
+ 
  https://data-flair.training/blogs/advantages-of-mongodb/
+ 
  http://makble.com/the-advantages-and-disadvantages-of-mongodb
 
- Q3: 
+ ### Q3: 
  https://zenkit.com/en/blog/agile-methodology-an-overview/
+ 
  https://www.agilealliance.org/agile101/
+ 
  https://www.workfront.com/blog/the-beginners-guide-to-agile-project-management-methodology
+ 
  https://plan.io/blog/ultimate-guide-to-implementing-agile-project-management-and-scrum/
 
- Q4: 
+ ### Q4: 
  https://homes.cs.washington.edu/~mernst/advice/version-control.html
 
- Q5: 
+ ### Q5: 
  https://www.testbytes.net/blog/software-testing-standards/ 
+ 
  https://www.softwaretestingstandard.org/part2.php
+
  https://www.tutorialspoint.com/software_testing/software_testing_iso_standards.htm
+ 
  https://reqtest.com/testing-blog/the-a-to-z-guide-to-the-software-testing-process/
+ 
+ 
  https://artoftesting.com/difference-between-test-plan-and-test-
  
- Q6: https://www.proserveit.com/blog/information-security-requirements
+### Q6: 
 
- Q7: https://digitalguardian.com/blog/101-data-protection-tips-how-keep-your-passwords-financial-personal-information-safe
+https://www.proserveit.com/blog/information-security-requirements
 
- Q8: https://www.nfplaw.org.au/sites/default/files/media/Privacy_Guide_Cth.pdf
+### Q7: 
 
- Q9,Q11,Q12:
-     https://www2.cs.sfu.ca/CourseCentral/354/zaiane/material/notes/Chapter3/node2.html
-     http://www.rampant-books.com/t_super_sql_124_referential_integrity_dri.htm
-     https://dondi.lmu.build/share/db/relational1.pdf
-     https://opentextbc.ca/dbdesign01/chapter/chapter-9-integrity-rules-and-constraints/
-     https://coderacademy.instructure.com/courses/240/pages/introduction-to-databases?module_item_id=9871
-     https://www.guru99.com/relational-data-model-dbms.html
-     https://opentextbc.ca/dbdesign01/chapter/chapter-7-the-relational-data-model/
-     https://www.cs.uct.ac.za/mit_notes/database/htmls/chp02.html 
-     https://www.techopedia.com/definition/1179/data-manipulation-language-dml
-     https://www.simplilearn.com/data-manipulation-in-sql-tutorial
+https://digitalguardian.com/blog/101-data-protection-tips-how-keep-your-passwords-financial-personal-information-safe
 
-Q12, Q13:
-     https://betterexplained.com/articles/sorting-algorithms/
-     https://codeburst.io/algorithms-i-searching-and-sorting-algorithms-56497dbaef20
-     https://pediaa.com/what-is-the-difference-between-bubble-sort-and-insertion-sort/
-     https://brilliant.org/wiki/bubble-sort/
-     https://brilliant.org/wiki/insertion/
-     https://brilliant.org/wiki/binary-search/
+### Q8: 
 
-Q14: https://hub.packtpub.com/what-software-stack-does-airbnb-use/
-     https://www.freelancinggig.com/blog/2018/09/28/what-programming-language-is-airbnb-written-in/
-     https://medium.com/airbnb-engineering/accelerating-services-at-airbnb-by-building-a-blazing-fast-thrift-binding-for-ruby-8f63044ba149
-     https://www.nginx.com/resources/wiki/community/why_use_it/
-     https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=11&ved=2ahUKEwi1yMmz3oHmAhU36XMBHWpwAewQFjAKegQIARAH&url=https%3A%2F%2Fredis.io%2Ftopics%2Fintroduction&usg=AOvVaw1T_9kr5d-pRdIPY9bAV_TV
-     https://redislabs.com/wp-content/uploads/2016/03/15-Reasons-Caching-is-best-with-Redis-RedisLabs-1.pdf
-     https://medium.com/airbnb-engineering/druid-airbnb-data-platform-601c312f2a4c
-     https://medium.com/airbnb-engineering/data-infrastructure-at-airbnb-8adfb34f169c
-     https://learn.g2.com/structured-vs-unstructured-data
+https://www.nfplaw.org.au/sites/default/files/media/Privacy_Guide_Cth.pdf
+
+### Q9,Q11,Q12:
+https://www2.cs.sfu.ca/CourseCentral/354/zaiane/material/notes/Chapter3/node2.html
+
+http://www.rampant-books.com/t_super_sql_124_referential_integrity_dri.htm
+
+https://dondi.lmu.build/share/db/relational1.pdf
+
+https://opentextbc.ca/dbdesign01/chapter/chapter-9-integrity-rules-and-constraints/
+
+https://coderacademy.instructure.com/courses/240/pages/introduction-to-databases?module_item_id=9871
+
+https://www.guru99.com/relational-data-model-dbms.html
+
+https://opentextbc.ca/dbdesign01/chapter/chapter-7-the-relational-data-model/
+
+https://www.cs.uct.ac.za/mit_notes/database/htmls/chp02.html 
+
+https://www.techopedia.com/definition/1179/data-manipulation-language-dml
+
+https://www.simplilearn.com/data-manipulation-in-sql-tutorial
+
+### Q12, Q13:
+https://betterexplained.com/articles/sorting-algorithms/
+
+https://codeburst.io/algorithms-i-searching-and-sorting-algorithms-56497dbaef20
+
+https://pediaa.com/what-is-the-difference-between-bubble-sort-and-insertion-sort/
+
+https://brilliant.org/wiki/bubble-sort/
+
+https://brilliant.org/wiki/insertion/
+
+https://brilliant.org/wiki/binary-search/
+
+### Q14: 
+https://hub.packtpub.com/what-software-stack-does-airbnb-use/
+
+https://www.freelancinggig.com/blog/2018/09/28/what-programming-language-is-airbnb-written-in/
+
+https://medium.com/airbnb-engineering/accelerating-services-at-airbnb-by-building-a-blazing-fast-thrift-binding-for-ruby-8f63044ba149
+
+https://www.nginx.com/resources/wiki/community/why_use_it/
+
+https://redis.io/topics/introduction
+
+https://redislabs.com/wp-content/uploads/2016/03/15-Reasons-Caching-is-best-with-Redis-RedisLabs-1.pdf
+
+https://medium.com/airbnb-engineering/druid-airbnb-data-platform-601c312f2a4c
+
+https://medium.com/airbnb-engineering/data-infrastructure-at-airbnb-8adfb34f169c
+
+https://learn.g2.com/structured-vs-unstructured-data
